@@ -1,0 +1,1094 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
+
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+  
+
+/*Parte do titulo e os menu*/
+
+.topo{
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+}
+.topo h1{
+    color: red;
+    margin-top: 35px;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.logo{
+    display: flex;
+flex: 20%;
+/* border: 1px solid red;*/
+margin-left: 10%;
+}
+.menu{
+flex: 65%;
+/* border: 1px solid blue;*/
+text-align: right;
+margin-right: 5%;
+}
+.menu a{
+text-decoration: none;
+padding: 0 15px;
+margin-right: 45px;
+color: black;  
+font-family: 'Oswald', sans-serif;
+}
+.menu a:hover{
+border-bottom: 2px solid orange;
+border-radius: 100px;
+}
+#ultimo-btn{
+border-radius: 20px;
+background: orange;
+padding: 10px 15px;
+border-bottom: none;
+}
+
+
+
+/*Parte do conteudo(meio) da esquerda.*/
+
+.meio{
+display: flex;
+}
+.sessao-esquerda{
+flex: 25%;
+/*border: 1px solid black;*/
+margin-left: 10%;
+height: 500px;
+}
+.conteudo h2{
+margin-top: 100px;
+font-size: 35px;
+}
+.conteudo p{
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.conteudo a{
+margin-left: 10px;
+text-decoration: none;
+color: white;
+background: orange;
+border-radius: 25px;
+padding: 15px;
+}
+.conteudo i{
+font-size: 15px;
+}
+
+
+
+
+/*Parte do conteudo(meio) da direita*/
+
+.sessao-direita{
+flex:45%;
+/* border: 1px solid yellow;*/
+}
+.sessao-direita img{
+margin-left:30px;
+margin-top: 60px;
+border-radius: 200px;
+}
+
+
+
+
+/*Parte dos card's*/
+
+.contatos{
+margin-top: 30px;
+display: flex;
+/*border: 1px solid red;*/
+justify-content: center;
+align-items: center;
+margin:10 50px;
+}
+.card1{
+border-radius: 30px;
+box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+margin-right: 180px;
+text-align: center;
+transition: all 0.3s ease-out;
+height: 100px;
+}
+.card1:hover{
+transform: translateY(-5px);
+cursor: pointer;
+}
+.card2{
+    margin-right: 100px;
+border-radius: 30px;
+box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+text-align: center;
+transition: all 0.3s ease-out;
+height: 100px;
+}
+.card2:hover{
+transform: translateY(-5px);
+cursor: pointer;
+}
+.card3{
+border-radius: 30px;
+box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+margin-left: 120px;
+text-align: center;
+transition: all 0.3s ease-out;
+height: 100px;
+padding: 0 20px;
+}
+.card3:hover{
+transform: translateY(-5px);
+cursor: pointer;
+}
+
+
+
+
+/*Parte dos meio2 e cards das pizzas*/
+
+.meio2{
+justify-content: center;
+align-items: center;
+}
+.conteudo2{
+/*border: 1px solid blue;*/
+text-align: center;
+}
+
+.cards{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.card4{
+border-radius: 30px;
+box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+margin-right: 100px;
+text-align: center;
+transition: all 0.3s ease-out;
+height: 250px;
+width: 200px;
+}
+.card4:hover{
+transform: translateY(-15px);
+cursor: pointer;
+}
+.card4 i{
+color: orange;
+padding-top: 25px;
+font-size: 50px;
+}
+.card4 h4{
+padding-top: 20px;
+}
+.card4 p{
+padding-top: 20px;
+}
+
+.card5{
+border-radius: 30px;
+box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+text-align: center;
+transition: all 0.4s ease-out;
+height: 250px;
+width: 200px;
+}
+.card5:hover{
+transform: translateY(-5px);
+cursor: pointer;
+}
+.card5 i{
+color: orange;
+padding-top: 25px;
+font-size: 60px;
+}
+.card5 h4{
+padding-top: 20px;
+}
+.card5 p{
+padding-top: 20px;
+}
+
+.card6{
+border-radius: 30px;
+box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+margin-left: 100px;
+text-align: center;
+transition: all 0.3s ease-out;
+height: 250px;
+width: 200px;
+padding: 0 30px;
+}
+.card6:hover{
+transform: translateY(-15px);
+cursor: pointer;
+}
+.card6 i{
+color: orange;
+padding-top: 25px;
+font-size: 50px;
+}
+.card6 h4{
+padding-top:20px;
+}
+.card6 p{
+padding-top: 20px;
+}
+
+.sessao3{
+text-align: center;
+/*border: 1px solid red;*/
+margin-top: 100px;
+}
+.sessao3 p{
+padding-top: 10px;
+}
+.sessao3 h4{
+padding-top: 10px;
+font-size: 20px;
+}
+
+.cards-cima{
+margin-top: 70px;
+display: flex;
+}
+.card7{
+border-radius: 10px;
+box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+margin-left: 150px;
+text-align: center;
+transition: all 0.3s ease-out;
+padding: 0 0px;
+}
+.card7:hover{
+transform: translateY(-5px);
+cursor: pointer;
+}
+.card7 i{
+color: white;
+background: orange;
+margin-left: 240px;
+margin-top: 40px;
+padding: 1px 15px;
+border-radius: 5px;
+font-size: 35px;
+}
+
+.card8{
+border-radius: 10px;
+box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+margin-left: 100px;
+text-align: center;
+transition: all 0.3s ease-out;
+padding: 0 0px;
+}
+.card8:hover{
+transform: translateY(-5px);
+cursor: pointer;
+}
+.card8 i{
+color: white;
+background: orange;
+margin-left: 240px;
+margin-top: 40px;
+padding: 1px 15px;
+border-radius: 5px;
+font-size: 35px;
+}
+
+.card9{
+border-radius: 10px;
+box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+margin-left: 100px;
+text-align: center;
+transition: all 0.3s ease-out;
+padding: 0 0px;
+}
+.card9:hover{
+transform: translateY(-5px);
+cursor: pointer;
+}
+.card9 i{
+color: white;
+background: orange;
+margin-left: 240px;
+margin-top: 40px;
+padding: 1px 15px;
+border-radius: 5px;
+font-size: 35px;
+}
+
+.cards-baixo{
+display: flex;
+margin-top: 40px;
+}
+.card10{
+border-radius: 10px;
+box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+margin-left: 150px;
+text-align: center;
+transition: all 0.3s ease-out;
+padding: 0 0px;
+}
+.card10:hover{
+transform: translateY(-5px);
+cursor: pointer;
+}
+.card10 i{
+color: white;
+background: orange;
+margin-left: 240px;
+margin-top: 40px;
+padding: 1px 15px;
+border-radius: 5px;
+font-size: 35px;
+}
+.card11{
+border-radius: 10px;
+box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+margin-left: 100px;
+text-align: center;
+transition: all 0.3s ease-out;
+padding: 0 0px;
+}
+.card11:hover{
+transform: translateY(-5px);
+cursor: pointer;
+}
+.card11 i{
+color: white;
+background: orange;
+margin-left: 240px;
+margin-top: 40px;
+padding: 1px 15px;
+border-radius: 5px;
+font-size: 35px;
+}
+.card12{
+border-radius: 10px;
+box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+margin-left: 100px;
+text-align: center;
+transition: all 0.3s ease-out;
+padding: 0 0px;
+}
+.card12:hover{
+transform: translateY(-5px);
+cursor: pointer;
+}
+.card12 i{
+color: white;
+background: orange;
+margin-left: 240px;
+margin-top: 40px;
+padding: 1px 15px;
+border-radius: 5px;
+font-size: 35px;
+}
+.btn-card{ 
+margin-left: 595px;
+margin-top: 100px;
+background: orange;
+color: white;
+border-radius: 30px;
+text-decoration: none;
+padding: 15px 30px;
+}
+
+
+
+/*Parte do meio4*/
+
+.sessao4{
+/*border: 1px solid black;*/
+margin-top: 180px;
+text-align: center;
+}
+.sessao4 p{
+padding-top: 10px;
+}
+.sessao4 h4{
+padding-top: 10px;
+font-size: 30px;
+}
+.card-my{
+/*border: 1px solid red;*/
+margin: 80px 440px;
+padding: 20px;
+border-start-start-radius: 50px;
+border-end-end-radius:50px ;
+box-shadow: 7px 7px 13px 0 rgba(22, 22, 22, 0.322);
+text-align: center;
+}
+
+.texto{
+margin-top: 70px;
+/*border: 1px solid blue;*/
+text-align:center;
+}
+.texto input{
+    padding: 10px 30px;
+    border:1px solid black;
+}
+.text{
+padding: 19px 200px;
+border-radius: 30px;
+margin-left: 70px;
+}
+
+.subimit{
+background: orange;
+color: white;
+padding: 15px 40px;
+border-radius: 20px;
+cursor: pointer;
+}
+
+/*Rodapé*/
+
+.footer{
+background: rgb(255, 145, 0);
+margin-top: 130px;
+/*border: 1px solid green;*/
+text-align: center;
+padding-right: 65px;
+padding: 25px;
+}
+.footer h2{
+font-size: 35px;
+}
+.footer i{
+margin-top: 10px;
+font-size: 25px;
+padding: 5px 15px;
+cursor: pointer;
+}
+
+
+
+/*Parte do Site responsível*/
+
+@media screen and (max-width : 600px) {
+ 
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    .logo{
+        flex-direction:row;
+        margin-right: 50px;
+    }
+    .menu{
+        display: flex;
+       flex-direction: column;
+       margin-top: 130px;
+       font-size: 18px;
+
+    }
+    #ultimo-btn{
+        padding: 0px 10px;
+        margin-top: 10px;
+    }
+
+
+    .meio{
+        flex-direction: row;
+    }
+    .sessao-esquerda{
+        margin-top: 40px;
+    }
+    .btn{
+        padding: 5px;
+        font-size: 12px;
+    }
+    
+    .sessao-direita img{
+    margin-top: 70%;
+     width: 210px;
+     height: 205px;
+    }
+
+    .contatos{
+        margin-top: 80px;
+    }
+    .card1{
+        margin-right: 0px;
+        margin-left: 10px;
+        height: 200px;
+    }
+    .card2{
+        margin-left: 100px;
+        height: 200px;
+    }
+    .card3{
+        margin-right: 30px;
+        margin-left: 0px;
+        height: 200px;
+    }
+
+    .conteudo2{
+        margin-right: 50px;
+    }
+    .card4{
+        margin-right: 0px;
+        margin-left: 5px;
+        height: 350px;
+        width: 90px;
+        text-align: center;
+    }
+    .card5{
+        margin-left: 50px;
+        height: 230px;
+        width: 130px;
+    }
+
+    .card6{
+        margin-right: 10px;
+        margin-left: 50px;
+        height: 350px;
+        width: 90px;
+        text-align: center;
+    }
+    .card6 h4{
+        display: flex;
+        justify-content: center;
+    }
+    .card6 p{
+        display: flex;
+        justify-content: center;
+    }
+    .card6 i{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sessao3{
+        margin-right: 50px;
+    }
+
+
+
+    .cards-cima{
+        flex-direction: column;
+    }
+    .card7{
+     margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+    margin-left: 95px;
+    margin-right: 128px;
+    text-align: center;
+    transition: all 0.3s ease-out;
+    padding: 0 0px;
+    }
+    .card7 img{
+        width: 260px;
+    }
+    .card7 i{
+        margin-left: 200px;
+    }
+
+    .card8{        
+    margin-right: 130px;
+    margin-bottom: 20px;
+    }
+    .card8 img{
+        width: 253px;
+    }
+    .card8 i{
+        margin-left: 193px;
+    }
+
+    .card9{
+    margin-right: 130px;
+    }
+    .card9 img{
+        width: 253px;
+    }
+    .card9 i{
+        margin-left: 193px;
+    }
+
+    .cards-baixo{
+        flex-direction: column;
+    }
+    .card10{
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+        margin-left: 95px;
+        margin-right: 128px;
+        text-align: center;
+        transition: all 0.3s ease-out;
+        padding: 0 0px;
+    }
+    .card10 img{
+        width: 260px;
+    }
+    .card10 i{
+        margin-left: 200px;
+    }
+
+    .card11{        
+    margin-right: 130px;
+    margin-bottom: 20px;
+    }
+    .card11 img{
+        width: 253px;
+    }
+    .card11 i{
+        margin-left: 193px;
+    }
+
+    .card12{
+    margin-right: 130px;
+    }
+    .card12 img{
+        width: 253px;
+    }
+    .card12 i{
+        margin-left: 193px;
+    }
+
+    .btn-card{
+        margin-left: 150px; 
+    }
+
+    .card-my{
+    position: relative;
+    right: 350px;
+   width: 300px;
+   text-align: center;
+   text-align:center;
+   }
+}
+
+@media screen and (max-width : 375px) {
+ 
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    .logo{
+        flex-direction:row;
+        margin-right: 20px;
+    }
+    .menu{
+        display: flex;
+       flex-direction: column;
+       margin-top: 130px;
+       font-size: 18px;
+
+    }
+    #ultimo-btn{
+        padding: 0px 10px;
+        margin-top: 10px;
+    }
+
+
+    .meio{
+        flex-direction: row;
+    }
+    .sessao-esquerda{
+        margin-top: 40px;
+        
+    }
+    .btn{
+        padding: 5px;
+        font-size: 12px;
+    }
+    
+    .sessao-direita img{
+    margin-left: 0px;
+    margin-top: 70%;
+     width: 200px;
+     height: 185px;
+    }
+
+    .contatos{
+        margin-top: 200px;
+    }
+    .card1{
+        margin-right: 30px;
+        margin-left: 20px;
+        height: 200px;
+    }
+    .card2{
+        margin-left: 0px;
+        height: 200px;
+        margin-right: 0px;
+    }
+    .card3{
+        margin-left: 0px;
+        margin-right: 10px;
+        height: 200px;
+    }
+
+    .conteudo2{
+        margin-right: 0px;
+    }
+    .card4{
+        margin-right: 0px;
+        margin-left: 20px;
+        height: 400px;
+        width: 90px;
+        text-align: center;
+    }
+    .card5{
+        margin-left: 50px;
+        height: 230px;
+        width: 130px;
+    }
+
+    .card6{
+        margin-right: 10px;
+        margin-left: 50px;
+        height: 350px;
+        width: 90px;
+        text-align: center;
+    }
+    .card6 h4{
+        display: flex;
+        justify-content: center;
+    }
+    .card6 p{
+        display: flex;
+        justify-content: center;
+    }
+    .card6 i{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sessao3{
+        margin-right: 30px;
+    }
+
+
+
+    .cards-cima{
+        flex-direction: column;
+    }
+    .card7{
+     margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+    margin-left: 95px;
+    margin-right: 110px;
+    text-align: center;
+    transition: all 0.3s ease-out;
+    padding: 0 0px;
+    }
+    .card7 img{
+        width: 170px;
+    }
+    .card7 i{
+        margin-left: 110px;
+    }
+
+    .card8{        
+    margin-right: 110px;
+    margin-bottom: 20px;
+    }
+    .card8 img{
+        width: 165px;
+    }
+    .card8 i{
+        margin-left: 105px;
+    }
+
+    .card9{
+    margin-right: 110px;
+    }
+    .card9 img{
+        width: 165px;
+    }
+    .card9 i{
+        margin-left: 105px;
+    }
+
+    .cards-baixo{
+        flex-direction: column;
+    }
+    .card10{
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+        margin-left: 95px;
+        margin-right: 110px;
+        text-align: center;
+        transition: all 0.3s ease-out;
+        padding: 0 0px;
+    }
+    .card10 img{
+        width: 170px;
+    }
+    .card10 i{
+        margin-left: 110px;
+    }
+
+    .card11{        
+        margin-right: 110px;
+    margin-bottom: 20px;
+    }
+    .card11 img{
+        width: 163px
+    }
+    .card11 i{
+        margin-left: 105px;
+    }
+
+    .card12{
+    margin-right: 110px;
+    }
+    .card12 img{
+        width: 145px
+    }
+    .card12 i{
+        margin-left: 105px;
+    }
+
+    .btn-card{
+        margin-left: 90px; 
+    }
+
+    .card-my{
+    position: relative;
+    right: 390px;
+   width: 300px;
+   text-align: center;
+   text-align:center;
+   }
+   .text{
+   margin-right: 200px;
+   margin-bottom: 10px;
+   } 
+}
+
+@media screen and (max-width : 400px) {
+ 
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    .logo{
+        flex-direction:row;
+        margin-right: 0px;
+        margin-left: 48px;
+
+    }
+    .menu{
+        display: flex;
+       flex-direction: column;
+       margin-top: 130px;
+       font-size: 18px;
+
+    }
+    #ultimo-btn{
+        padding: 0px 10px;
+        margin-top: 10px;
+    }
+
+
+    .meio{
+        flex-direction: row;
+    }
+    .conteudo{
+        margin-left: 10px;  }
+    .sessao-esquerda{
+        margin-top: 40px;
+        
+    }
+    .btn{
+        padding: 5px;
+        font-size: 12px;
+    }
+    
+    .sessao-direita img{
+    margin-left: 0px;
+    margin-top: 150%;
+     width: 170px;
+     height: 155px;
+    }
+
+    .contatos{
+        margin-top: 200px;
+    }
+    .card1{
+        margin-right: 0px;
+        margin-left: 35px;
+        height: 200px;
+        width: 80px;
+    }
+    .card2{
+        margin-left: 10px;
+        height: 200px;
+        margin-right: 0px;
+        width: 80px;
+    }
+    .card3{
+        margin-left: 10px;
+        margin-right: 20px;
+        height: 200px;
+        width: 80px;
+    }
+
+    .conteudo2{
+        margin-right: 0px;
+    }
+    .conteudo2 h1{
+        font-size: 15px;
+    }
+    .card4{
+        margin-right: 0px;
+        margin-left: 0px;
+        height: 350px;
+        width: 90px;
+        text-align: center;
+    }
+    .card5{
+        margin-left: 0px;
+        height: 230px;
+        width: 130px;
+    }
+
+    .card6{
+        margin-right: 10px;
+        margin-left: 0px;
+        height: 350px;
+        width: 90px;
+        text-align: center;
+    }
+    .card6 h4{
+        display: flex;
+        justify-content: center;
+    }
+    .card6 p{
+        display: flex;
+        justify-content: center;
+    }
+    .card6 i{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sessao3{
+        margin-right: 0px;
+        font-size: 13px;
+    }
+
+
+
+    .cards-cima{
+        flex-direction: column;
+    }
+    .card7{
+     margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+    margin-left: 95px;
+    margin-right: 110px;
+    text-align: center;
+    transition: all 0.3s ease-out;
+    padding: 0 0px;
+    }
+    .card7 img{
+        width: 195px;
+    }
+    .card7 i{
+        margin-left: 135px;
+    }
+
+    .card8{        
+    margin-right: 110px;
+    margin-bottom: 20px;
+    }
+    .card8 img{
+        width: 189px;
+    }
+    .card8 i{
+        margin-left: 129px;
+    }
+
+    .card9{
+    margin-right: 110px;
+    }
+    .card9 img{
+        width: 190px;
+    }
+    .card9 i{
+        margin-left: 129px;
+    }
+
+    .cards-baixo{
+        flex-direction: column;
+    }
+    .card10{
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+        margin-left: 95px;
+        margin-right: 110px;
+        text-align: center;
+        transition: all 0.3s ease-out;
+        padding: 0 0px;
+    }
+    .card10 img{
+        width: 195px;
+    }
+    .card10 i{
+        margin-left: 135px;
+    }
+
+    .card11{        
+        margin-right: 110px;
+    margin-bottom: 20px;
+    }
+    .card11 img{
+        width: 190px
+    }
+    .card11 i{
+        margin-left: 129px;
+    }
+
+    .card12{
+    margin-right: 110px;
+    }
+    .card12 img{
+        width: 145px
+    }
+    .card12 i{
+        margin-left: 129px;
+    }
+
+    .btn-card{
+        margin-left: 120px; 
+    }
+
+    .card-my{
+    position: relative;
+    right: 390px;
+   width: 300px;
+   text-align: center;
+   text-align:center;
+   }
+   .text{
+   margin-right: 200px;
+   margin-bottom: 10px;
+   } 
+}
